@@ -1,0 +1,13 @@
+[package]
+name = "audio-chromaprint"
+version = "0.1.0"
+edition = "2024"
+rust-version = "1.88"
+license = "MIT"
+description = "Streaming AcoustID fingerprints and segment matching in pure Rust"
+
+[dependencies]
+base64 = "0.23"
+rustfft = "6.4"
+rusty-chromaprint = "0.3"
+thiserror = "2"
